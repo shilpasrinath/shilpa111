@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "cover check in insurance portal",
+        "description": "",
+        "id": "verifying-vehicle-exist;cover-check-in-insurance-portal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat base.Testbase.intialization(Testbase.java:35)\r\n\tat Stepdefinitions.vehiclestepdefinition.user_is_on_login_page(vehiclestepdefinition.java:18)\r\n\tat ✽.user is on login page(C:/Users/srinath/eclipse-workspace/vehicleexist/src/main/java/Features/vehicle.feature:3)\r\n",
+              "duration": 8036599092,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "vehiclestepdefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user enters vehicle registration number",
+            "match": {
+              "location": "vehiclestepdefinition.user_enters_vehicle_registration_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User clicks on find vehicle",
+            "match": {
+              "location": "vehiclestepdefinition.user_clicks_on_find_vehicle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user get results for that vehicle",
+            "match": {
+              "location": "vehiclestepdefinition.user_get_results_for_that_vehicle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying vehicle exist",
+    "description": "",
+    "id": "verifying-vehicle-exist",
+    "keyword": "Feature",
+    "uri": "C:/Users/srinath/eclipse-workspace/vehicleexist/src/main/java/Features/vehicle.feature"
+  }
+]

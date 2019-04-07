@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.061875">
+<testcase classname="verifying vehicle exist" name="cover check in insurance portal" time="8.061875">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at base.Testbase.intialization(Testbase.java:35)&#13;&#10;&#9;at Stepdefinitions.vehiclestepdefinition.user_is_on_login_page(vehiclestepdefinition.java:18)&#13;&#10;&#9;at ✽.user is on login page(C:/Users/srinath/eclipse-workspace/vehicleexist/src/main/java/Features/vehicle.feature:3)&#13;&#10;"><![CDATA[Given user is on login page.................................................failed
+When user enters vehicle registration number................................skipped
+When User clicks on find vehicle............................................skipped
+Then user get results for that vehicle......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at base.Testbase.intialization(Testbase.java:35)
+	at Stepdefinitions.vehiclestepdefinition.user_is_on_login_page(vehiclestepdefinition.java:18)
+	at ✽.user is on login page(C:/Users/srinath/eclipse-workspace/vehicleexist/src/main/java/Features/vehicle.feature:3)
+]]></failure>
+</testcase>
+</testsuite>
